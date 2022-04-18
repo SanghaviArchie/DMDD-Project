@@ -51,7 +51,7 @@ CREATE TABLE PRODUCT
 [UpdatedBy] [varchar] (10) NULL,
 [UpdatedDate] [date] NULL,
 [CreatedDat] [date] NULL,
---[ProductImage] [varbinary(max)] NULL,
+[ProductImage] [varbinary(MAX)] NULL,
 [CreatedBy] [varchar] (10) NULL,
 CONSTRAINT [primary_ProductID] PRIMARY KEY CLUSTERED
 ([ProductID] ASC )
